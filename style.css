@@ -167,6 +167,25 @@ p {
   transform: translateY(-2px);
 }
 
+/* Certification style */
+.timeline {
+  list-style-type: none;
+  position: relative;
+  padding: 0;
+}
+.event {
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 3px solid #0078D4;
+  position: relative;
+}
+.event h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+
 /* Footer */
 footer {
   background-color: #e0e0e0;
