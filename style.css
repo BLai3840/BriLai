@@ -81,16 +81,17 @@ header p {
 
 /* Dropdown */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  top: 2.5rem;
+  top: 100%; /* fix */
   left: 0;
+  position: absolute;
   background-color: white;
   min-width: 200px;
   border-radius: 8px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   z-index: 1000;
+  display: none;
 }
+
 
 .dropdown-content li {
   display: block;
