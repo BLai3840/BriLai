@@ -46,10 +46,17 @@ header p {
   opacity: 0.95;
 }
 
-main {
+/* main {
   flex: 1;
   padding: 3rem 1rem;
-}
+} */
+
+
+<section class="certifications-link">
+  <h2>Certifications</h2>
+  <a href="Careercert.html" class="btn">Career Certifications</a>
+  <a href="Personalcert.html" class="btn">Personal Certifications</a>
+</section>
 
 section {
   background-color: white;
