@@ -112,6 +112,11 @@ header p {
   display: block;
 }
 
+.nav-list li.dropdown {
+  position: relative;
+  padding-bottom: 1.5rem; /* gives enough room to keep hover active */
+}
+
 /* Main content */
 main {
   flex: 1;
